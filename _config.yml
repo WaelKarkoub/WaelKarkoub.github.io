@@ -7,10 +7,10 @@
 
 # Site Settings
 locale: "en-US"
-title: "Wael Karkoub"
+title: "Wael's Homepage"
 title_separator: "-"
 name: &name "Wael Karkoub"
-description: &description "Robotics Software Engineer"
+description: &description "Software Engineer | Robotics Engineer | Autonomous Robots | Infra"
 url: https://WaelKarkoub.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "WaelKarkoub/academicpages.github.io"
@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name: "Wael Karkoub"
-  avatar: "profile_cropped.png"
+  avatar: "images/profile_cropped.png"
   bio: "Robotics Software Engineer"
   location: "Sunnyvale, California"
   employer:

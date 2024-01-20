@@ -79,8 +79,8 @@ analytics:
 # Site Author
 author:
   name: "Wael Karkoub"
-  avatar: "images/profile_cropped.png"
-  bio: "Robotics Software Engineer"
+  avatar: "/images/profile_cropped.jpg"
+  bio: "Software Engineer | Robotics Engineer | Autonomous Robots | Infra"
   location: "Sunnyvale, California"
   employer:
   pubmed:

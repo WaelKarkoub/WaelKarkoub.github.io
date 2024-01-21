@@ -181,12 +181,21 @@ collections:
   work_experience:
     output: true
     permalink: /:collection/:path/
+  research_experience:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: workexperience
+      type: work_experience
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: research_experience
     values:
       layout: single
       author_profile: true

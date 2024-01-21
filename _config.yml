@@ -7,7 +7,7 @@
 
 # Site Settings
 locale: "en-US"
-title: "Wael Karkoub"
+title: "Wael's Home"
 title_separator: "-"
 name: &name "Wael Karkoub"
 description: &description "Software Engineer | Robotics Engineer | Autonomous Systems | Infra"
@@ -184,6 +184,9 @@ collections:
   research_experience:
     output: true
     permalink: /:collection/:path/
+  personal_projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -196,6 +199,12 @@ defaults:
   - scope:
       path: ""
       type: research_experience
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: personal_projects
     values:
       layout: single
       author_profile: true

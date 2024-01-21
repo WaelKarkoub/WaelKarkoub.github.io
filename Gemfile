@@ -26,4 +26,6 @@ group :jekyll_plugins do
   gem 'hawkins'
 end
 
+gem "bigdecimal", "~> 3.1"
+
 gem "webrick", "~> 1.8"

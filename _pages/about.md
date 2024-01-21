@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -13,5 +13,5 @@ Master's and undergraduate degrees in mechanical engineering with a focus on rob
 # Skills
 
 <p align="center">
-  <img src="/images/skills.png" />
+  <img src="/images/skills.png" >
 </p>

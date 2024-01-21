@@ -7,13 +7,13 @@
 
 # Site Settings
 locale: "en-US"
-title: "Wael's Homepage"
+title: "Wael Karkoub"
 title_separator: "-"
 name: &name "Wael Karkoub"
-description: &description "Software Engineer | Robotics Engineer | Autonomous Robots | Infra"
-url: https://WaelKarkoub.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description: &description "Software Engineer | Robotics Engineer | Autonomous Systems | Infra"
+url: https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "WaelKarkoub/academicpages.github.io"
+repository: "WaelKarkoub/WaelKarkoub.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -79,9 +79,9 @@ analytics:
 # Site Author
 author:
   name: "Wael Karkoub"
-  avatar: "profile_cropped.png"
-  bio: "Software Engineer | Robotics Engineer | Autonomous Robots | Infra"
-  location: "Sunnyvale, California"
+  avatar: "profile.png"
+  bio: "Software Engineer | Robotics Engineer | Autonomous Systems | Infra"
+  location: "Sunnyvale, CA"
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=-bpMU0YAAAAJ&hl=en"
@@ -169,9 +169,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -181,9 +178,18 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  work_experience:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: workexperience
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
@@ -229,14 +235,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

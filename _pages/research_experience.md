@@ -13,7 +13,7 @@ There is no question that autonomous vehicles and robots are going to have a pro
 
 <span style="display:block;text-align:center">[![IMAGE ALT TEXT](http://img.youtube.com/vi/8lQ_X2vMhOo/0.jpg)](http://www.youtube.com/watch?v=8lQ_X2vMhOo "Tesla at Exits Sim") [![IMAGE ALT TEXT](http://img.youtube.com/vi/dORc1rVnBLw/0.jpg)](http://www.youtube.com/watch?v=dORc1rVnBLw "Warthog path following")</span>
 
-## [SYSTEM IDENTIFICATION OF AUTONOMOUS ON AND OFF-ROAD VEHICLES WITH NON-LINEAR MODEL PREDICTIVE CONTROL FOR PATH TRACKING](/files/Efficient_Traffic_Light_Detection_for_Autonomous_Vehicles.pdf)
+## [Efficient Traffic Light Detection for Autonomous Vehicles](/files/Efficient_Traffic_Light_Detection_for_Autonomous_Vehicles.pdf)
 
 Autonomous vehicles are quickly becoming a reality, expected to increase the safety and the efficiency of transportation infrastructure. One important factor of autonomous vehicles is their ability to detect traffic lights accurately at longer distances as they approach an intersection. We have developed an efficient algorithm based on XGBoost that is able to detect traffic lights as far as 45 m away from an intersection. We evaluated our algorithm on approximately 5000 frames, which were labeled according to their distances. The overall precision and recall were found to be 99.8% and 88.1%, respectively, and the algorithm can make the appropriate decision with 91% accuracy. The proposed algorithm can be executed on a CPU at 13 fps.
 
